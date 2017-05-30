@@ -1,28 +1,45 @@
 
-var tab =      {
-        question : "Qui a inventé la dynamite?",
-        choix : [
+var tab  = [
+    {
+        "question" : "Qui a inventé la dynamite?",
+        "choix"  : [
             "John Trinit",
             "Paul Craine",
             "Alfred Nobel",
             "John Dynamite"
         ],
-        correct : "Alfred Nobel",
-
-
+        "correct" : "Alfred Nobel"
     },
     {
-        question : "Qui a inventé la dynamite?",
-        choix : [
-            "John Trinit",
-            "Paul Craine",
-            "Alfred Nobel",
-            "John Dynamite"
+        "question" :"Qui a inventé le téléphone?",
+        "choix"       :   [
+            "Alexander Graham Bell",
+            "Benjamin Franklin",
+            "Thomas Edison",
+            "Ma femme"
         ],
-        correct : "Alfred Nobel",
-
-
-];
+        "correct" : "Thomas Edison"
+    },
+    {
+        "question" :"A qui doit-on la pénicilline?",
+        "choix"       :   [
+            "Sir Alexander Fleming",
+            "Louis Pasteur",
+            "Antoine Lavoisier",
+            "Alfred Pénicilline"
+        ],
+        "correct" : "Sir Alexander Fleming"
+    },
+    {
+        "question" :"Qui a inventé la boîte de conserve?",
+        "choix"       :   [
+            " Joseph Cugnot",
+            "Auguste Denayrouze",
+            "Cédan Laboite",
+            "Nicolas Appert"
+        ],
+        "correct" : "Nicolas Appert"
+    }    ];
 
 function StyleCss() {
 
@@ -41,7 +58,7 @@ function StyleCss() {
 function StyleJS() {
 
 
-    for (var i=0 ; i < tab.length ;i++) {
+    for (var i=0 ; i < tab.length ;i++) { ''
         if((tab[i].type).includes("js")){
 
 
