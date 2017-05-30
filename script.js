@@ -41,14 +41,15 @@ var tab  = [
         "correct" : "Nicolas Appert"
     }    ];
 
+for (var i = 0; i < tab.length; i++) {
+  function QR() {
 
-function() {
-    document.getElementById('quest').innerHTML+=tab[0].question;
-    document.getElementById('bt1').innerHTML+=tab[0].choix[0];
-    document.getElementById('bt22').innerHTML+=tab[0].choix[1];
-    document.getElementById('bt3').innerHTML+=tab[0].choix[2];
-    document.getElementById('bt4').innerHTML+=tab[0].choix[3];
-
+        document.getElementById('quest').innerHTML = tab[0].question;
+        document.getElementById('bt1').innerHTML = tab[0].choix[0];
+        document.getElementById('bt22').innerHTML = tab[0].choix[1];
+        document.getElementById('bt3').innerHTML = tab[0].choix[2];
+        document.getElementById('bt4').innerHTML = tab[0].choix[3];
+    }
 }
 
 
