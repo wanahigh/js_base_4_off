@@ -1,29 +1,28 @@
 
-var tab = [
-    {
-        question: 'quel age du commandant ?',
-        reponses1: '42',
-        reponses2: '87',
-        reponses3: '65',
-        reponses4: '26'
-    },
-    {
-        question: 'quel age a la terre ?',
-        reponses1: '13 milliard d.année',
-        reponses2: '80K ans',
-        reponses3: '20 000 lieu sous les mer',
-        reponses4: 'gerard'
+var tab =      {
+        question : "Qui a inventé la dynamite?",
+        choix : [
+            "John Trinit",
+            "Paul Craine",
+            "Alfred Nobel",
+            "John Dynamite"
+        ],
+        correct : "Alfred Nobel",
+
 
     },
     {
-        question: 'la durée de vie d.CD ?',
-        reponses1: '13 milliard d.année',
-        reponses2: '80K ans',
-        reponses3: '20 000 lieu sous les mer',
-        reponses4: '10 ans'
-    }
+        question : "Qui a inventé la dynamite?",
+        choix : [
+            "John Trinit",
+            "Paul Craine",
+            "Alfred Nobel",
+            "John Dynamite"
+        ],
+        correct : "Alfred Nobel",
 
-] ;
+
+];
 
 function StyleCss() {
 
