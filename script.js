@@ -16,11 +16,11 @@ var tab = [
 
     },
     {
-        question: 'la durée de vie ?',
+        question: 'la durée de vie d.CD ?',
         reponses1: '13 milliard d.année',
         reponses2: '80K ans',
         reponses3: '20 000 lieu sous les mer',
-        reponses4: 'gerard'
+        reponses4: '10 ans'
     }
 
 ] ;
