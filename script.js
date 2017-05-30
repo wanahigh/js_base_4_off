@@ -41,30 +41,18 @@ var tab  = [
         "correct" : "Nicolas Appert"
     }    ];
 
-function StyleCss() {
 
+function() {
+    document.getElementById('quest').innerHTML+=tab[0].question;
+    document.getElementById('bt1').innerHTML+=tab[0].choix[0];
+    document.getElementById('bt22').innerHTML+=tab[0].choix[1];
+    document.getElementById('bt3').innerHTML+=tab[0].choix[2];
+    document.getElementById('bt4').innerHTML+=tab[0].choix[3];
 
-    for (var i=0 ; i < tab.length ;i++) {
-        if((tab[i].type).includes("css")){
-            var livres=document.getElementById('book').innerHTML += tab[i].title
-                +"</br>"+tab[i].author+"</br>"+tab[i].link+"</br>"+tab[i].type;
-        }
-    }
 }
 
 
 
 
-function StyleJS() {
 
-
-    for (var i=0 ; i < tab.length ;i++) { ''
-        if((tab[i].type).includes("js")){
-
-
-            var livres=document.getElementById('book').innerHTML += tab[i].title
-                +"</br>"+tab[i].author+"</br>"+tab[i].link+"</br>"+tab[i].type;
-        }
-    }
-}
 
