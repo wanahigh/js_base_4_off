@@ -1,4 +1,3 @@
-
 var quizz  = [
     {
         question : "Qui a inventé la dynamite?",
@@ -38,7 +37,6 @@ var quizz  = [
          document.getElementById('bt3').innerHTML = null;
          document.getElementById('bt4').innerHTML = null;
          document.getElementById('quest').innerHTML += quizz[i].question;
-         console.log(i);
          document.getElementById('bt1').innerHTML += quizz[i].reponse1;
          document.getElementById('bt22').innerHTML += quizz[i].reponse2;
          document.getElementById('bt3').innerHTML += quizz[i].reponse3;
@@ -59,7 +57,6 @@ document.getElementById('bt44').onclick = function() {
     document.getElementById('bt3').innerHTML = null;
     document.getElementById('bt4').innerHTML = null;
     document.getElementById('quest').innerHTML += quizz[i].question;
-    console.log(i);
     document.getElementById('bt1').innerHTML += quizz[i].reponse1;
     document.getElementById('bt22').innerHTML += quizz[i].reponse2;
     document.getElementById('bt3').innerHTML += quizz[i].reponse3;
@@ -71,4 +68,3 @@ document.getElementById('bt44').onclick = function() {
         i=4;
     }
 };
-
